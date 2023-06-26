@@ -1,0 +1,22 @@
+
+.container{
+   text-align: center;
+}
+.search{
+    margin-top: 30px;
+    width: 600px;
+    height: 40px;
+    border: 2px solid #2229ef;
+    border-radius: 24px;
+    font-size: 24px;
+    color: #2229ef;
+    padding-left: 10px;
+}
+.search:hover,
+.search:focus{
+    outline: none;
+}
+.search::placeholder{
+    color: #2229ef;
+    font-size: 24px;
+}

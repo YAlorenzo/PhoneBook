@@ -1,0 +1,79 @@
+.container{
+    text-align: center;
+}
+.list{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    width: max-content;
+}
+.item{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.name{
+    margin: 0;
+    margin-left: 15px;
+    font-size: x-large;
+    margin-right: 10px;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    border: none;
+    background-color: rgba(219, 20, 20, 0.982);
+}
+.number{
+    margin: 0;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.message{
+    font-size: 24px;
+    color: #2229ef;
+    text-align: center;
+}
+.contact_box{
+    border: 1px solid #2229ef;
+    width: 770px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont_sear{
+    width: 770px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+}
+.add_button{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #2229ef;
+    text-decoration: none;
+    color: white;
+    background-color: #2229ef;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.userPhoto{
+    width: 40px;
+    border-radius: 24px;
+}
+.user_box{
+    display: flex;
+    align-items: center;
+}
