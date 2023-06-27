@@ -25,37 +25,45 @@
 .from{
     width: 400px;
     padding: 20px;
-    border-radius: 12px;
-    background-color: #2229ef;
-    color: white;
+    border-radius: 8px;
+    background-color: white;
+    color: #2229ef;
 }
 .input_name{
     width: 95%;
-    height: 10px;
-    border-radius: 4px;
-    padding: 10px;
+        height: 10px;
+        border-radius: 4px;
+        padding: 11px;
+        border: 1px solid #c2c2c2;
+        outline: none;
+}
+.input_name:hover,
+.input_name:focus{
+    outline: none;
     border: 1px solid #c2c2c2;
-    outline: none; 
 }
 
 .buttonAdd{
-   background-color: #2229ef;
-   border: 2px solid white;
-   color: white;
-   font-size: 15px;
-   font-weight: 600;
-   padding-left: 30px;
-   padding-right: 30px;
-   display: flex;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 15px;
-   width: max-content;
-   border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid #2229ef;
+    text-decoration: none;
+    color: #2229ef;
+    background-color: white;
+    font-size: 14px;
+    transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-transform: uppercase;
 }
 .buttonAdd:hover{
     cursor: pointer;
+    background-color: #2229ef;
+    color: white;
+
 }
- .my-input-class {
-     background-color: red;
- }

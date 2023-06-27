@@ -1,7 +1,11 @@
-import { useDispatch } from 'react-redux'
-import { login, register} from 'redux/auth/operations';
+//import hooks&&operation -->
+import { useDispatch } from 'react-redux';
+import { login, register } from 'redux/auth/operations';
+import { useState, useEffect } from 'react';
+//import styles -->
 import './style.css'
-import { useState, useEffect } from 'react'
+
+
 export default function SingInForm() {
     const dispatch = useDispatch();
     const [overlay, setOverlay] = useState(null)

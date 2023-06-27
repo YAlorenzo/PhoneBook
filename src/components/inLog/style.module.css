@@ -6,13 +6,19 @@
     border-radius: 20px;
     width: 140px;
     height: 40px;
-    border: 1px solid #2229ef;
+    border: 2px solid #2229ef;
     text-decoration: none;
     color: #2229ef;
     background-color: white;
     font-size: 14px;
     text-transform: uppercase;
-    
+    transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.link:hover,
+.link:focus{
+    border: 2px solid white;
+    background-color: #2229ef;
+    color: white;
 }
 .header{
     background-color: #2229ef;
@@ -39,9 +45,13 @@
     height: 40px;
     font-size: 14px;
     text-transform: uppercase;
+    transition: all 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.logOut_button:hover{
+.logOut_button:hover,
+.logOut_button:focus{
     cursor: pointer;
+    background-color: white;
+    color: #2229ef;
 }
 .links_box{
     display: flex;

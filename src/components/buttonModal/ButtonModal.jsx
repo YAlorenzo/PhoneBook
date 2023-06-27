@@ -1,8 +1,12 @@
+
 import React from "react";
-import css from "./buttonModal.module.css"
+
+//import hooks && action --> 
 import { useDispatch } from "react-redux";
 import { activeAction } from "redux/activeSlice";
 import { useSelector } from "react-redux";
+//import styles --> 
+import css from "./buttonModal.module.css"
 
 export default function ButtonModal() {
    const isLoggedIn = useSelector(state => state.auth.isLoggedIn); 
@@ -26,10 +30,8 @@ export default function ButtonModal() {
                <h1 className={css.title}>
                   {upfirstLetterName()}, welcome to your personal phoone book!
                </h1>
-                  <button type="button" onClick={openModal} className={css.button}>Add Contact</button>
-               
+                  <button type="button" onClick={openModal} className={css.button}>Add Contact</button>  
          </div>
-          {/* <FormInput/> */}
       </div>
       )       
        )

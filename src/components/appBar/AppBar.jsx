@@ -1,7 +1,8 @@
-
-import InLog from "components/inLog/InLog"
-import { useSelector } from "react-redux"
-import SingIn from "pages/SingIn"
+// import hooks --> 
+import { useSelector } from "react-redux";
+// import components && page --> 
+import InLog from "components/inLog/InLog";
+import SingIn from "pages/SingIn";
 
 
 export default function AppBar() {

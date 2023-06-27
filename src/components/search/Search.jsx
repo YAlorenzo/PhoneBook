@@ -1,8 +1,9 @@
 import React from "react";
-import css from "./search.module.css";
+//import hooks&&action --> 
 import { useDispatch } from "react-redux";
 import { filterAction } from "redux/filtersSlice";
-
+//import styles -->
+import css from "./search.module.css";
 
 export default function Search() {
   const dispatch = useDispatch()

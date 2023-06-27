@@ -1,10 +1,11 @@
+//import hooks&&operation -->
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Route, Routes, } from "react-router-dom";
 import { refreshUser } from "redux/auth/operations";
 import { lazy, Suspense} from "react";
+//import compomnents -->
 import { ThreeDots } from "react-loader-spinner";
-
 const Home = lazy(() => import("../pages/Home"));
 const ContactsPage = lazy(() => import("../pages/ContactsPage"));
 const HeaderUserMenu = lazy(() => import("../pages/HeaderUserMenu")); 

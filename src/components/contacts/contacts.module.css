@@ -11,6 +11,12 @@
     width: max-content;
 }
 .item{
+    padding: 5px 0px 5px 5px;
+    width: 100%;
+    background-color: #575df9;
+    border: 1px solid rgb(63, 63, 252);
+    color: white;
+    border-radius: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -23,11 +29,14 @@
     margin-right: 10px;
 }
 .button{
-    width: 40px;
-    height: 40px;
-    border-radius: 24px;
+    width: 45px;
+    height: 45px;
     border: none;
-    background-color: rgba(219, 20, 20, 0.982);
+    background-color: #575df9;
+}
+.button:hover, 
+.button:focus{
+    fill: red;
 }
 .number{
     margin: 0;
@@ -40,35 +49,13 @@
     text-align: center;
 }
 .contact_box{
-    border: 1px solid #2229ef;
     width: 770px;
     border-radius: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.cont_sear{
-    width: 770px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: flex-end;
-}
-.add_button{
-    margin-left: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    width: 140px;
-    height: 40px;
-    border: 1px solid #2229ef;
-    text-decoration: none;
-    color: white;
-    background-color: #2229ef;
-    font-size: 14px;
-    text-transform: uppercase;
-}
+
 .userPhoto{
     width: 40px;
     border-radius: 24px;
@@ -76,4 +63,11 @@
 .user_box{
     display: flex;
     align-items: center;
+}
+.icon{
+    fill: white;
+    transition: fill 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.button:hover .icon {
+    fill: red;
 }

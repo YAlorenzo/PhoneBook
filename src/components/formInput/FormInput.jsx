@@ -1,13 +1,16 @@
-
-import { useState } from "react";
-import PhoneInput from 'react-phone-input-2';
-import 'react-phone-input-2/lib/style.css'
-import css from "./formInput.module.css";
-import { nanoid } from 'nanoid';
+//import hooks && operation && active -->
 import { useDispatch, useSelector } from "react-redux";
 import { addContact } from "redux/contactsOperation";
 import { useNavigate } from "react-router-dom";
 import { activeAction } from "redux/activeSlice";
+import { useState } from "react";
+//import node_modules --> 
+import PhoneInput from 'react-phone-input-2';
+import { nanoid } from 'nanoid';
+//import styles --> 
+import 'react-phone-input-2/lib/style.css'
+import css from "./formInput.module.css";
+
 
 export default function FormInput({ active, }) {
     const navigete = useNavigate();
@@ -99,11 +102,9 @@ export default function FormInput({ active, }) {
                         value={number}
                         name="number"
                         onChange={onChangePhone}
-                        className="gg"
-                        inputClass="my-input-class"
                         inputStyle={{
-                        width: '404px'
-  }}
+                            width: '404px',
+                        }}
                     />
 
 
