@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/PhoneBook/static/css/main.bcdae94b.css",
-    "main.js": "/PhoneBook/static/js/main.f2ed41c2.js",
+    "main.css": "/PhoneBook/static/css/main.21524e4c.css",
+    "main.js": "/PhoneBook/static/js/main.93b0185f.js",
     "static/css/186.09e0e4e6.chunk.css": "/PhoneBook/static/css/186.09e0e4e6.chunk.css",
     "static/js/186.cc76ff6f.chunk.js": "/PhoneBook/static/js/186.cc76ff6f.chunk.js",
-    "static/css/992.57e252b2.chunk.css": "/PhoneBook/static/css/992.57e252b2.chunk.css",
+    "static/css/992.d5571243.chunk.css": "/PhoneBook/static/css/992.d5571243.chunk.css",
     "static/js/992.d0448302.chunk.js": "/PhoneBook/static/js/992.d0448302.chunk.js",
-    "static/css/47.80692197.chunk.css": "/PhoneBook/static/css/47.80692197.chunk.css",
-    "static/js/47.ed4541d2.chunk.js": "/PhoneBook/static/js/47.ed4541d2.chunk.js",
-    "static/css/832.94784adb.chunk.css": "/PhoneBook/static/css/832.94784adb.chunk.css",
+    "static/css/47.510ab038.chunk.css": "/PhoneBook/static/css/47.510ab038.chunk.css",
+    "static/js/47.051b18be.chunk.js": "/PhoneBook/static/js/47.051b18be.chunk.js",
+    "static/css/832.b9ca1d0d.chunk.css": "/PhoneBook/static/css/832.b9ca1d0d.chunk.css",
     "static/js/832.eda728d1.chunk.js": "/PhoneBook/static/js/832.eda728d1.chunk.js",
     "index.html": "/PhoneBook/index.html",
-    "main.bcdae94b.css.map": "/PhoneBook/static/css/main.bcdae94b.css.map",
-    "main.f2ed41c2.js.map": "/PhoneBook/static/js/main.f2ed41c2.js.map",
+    "main.21524e4c.css.map": "/PhoneBook/static/css/main.21524e4c.css.map",
+    "main.93b0185f.js.map": "/PhoneBook/static/js/main.93b0185f.js.map",
     "186.09e0e4e6.chunk.css.map": "/PhoneBook/static/css/186.09e0e4e6.chunk.css.map",
     "186.cc76ff6f.chunk.js.map": "/PhoneBook/static/js/186.cc76ff6f.chunk.js.map",
-    "992.57e252b2.chunk.css.map": "/PhoneBook/static/css/992.57e252b2.chunk.css.map",
+    "992.d5571243.chunk.css.map": "/PhoneBook/static/css/992.d5571243.chunk.css.map",
     "992.d0448302.chunk.js.map": "/PhoneBook/static/js/992.d0448302.chunk.js.map",
-    "47.80692197.chunk.css.map": "/PhoneBook/static/css/47.80692197.chunk.css.map",
-    "47.ed4541d2.chunk.js.map": "/PhoneBook/static/js/47.ed4541d2.chunk.js.map",
-    "832.94784adb.chunk.css.map": "/PhoneBook/static/css/832.94784adb.chunk.css.map",
+    "47.510ab038.chunk.css.map": "/PhoneBook/static/css/47.510ab038.chunk.css.map",
+    "47.051b18be.chunk.js.map": "/PhoneBook/static/js/47.051b18be.chunk.js.map",
+    "832.b9ca1d0d.chunk.css.map": "/PhoneBook/static/css/832.b9ca1d0d.chunk.css.map",
     "832.eda728d1.chunk.js.map": "/PhoneBook/static/js/832.eda728d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcdae94b.css",
-    "static/js/main.f2ed41c2.js"
+    "static/css/main.21524e4c.css",
+    "static/js/main.93b0185f.js"
   ]
 }
