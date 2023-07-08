@@ -29,7 +29,7 @@ export default function SingInForm() {
         evnt.preventDefault();
         const form = evnt.currentTarget;
         const email = form.email.value;
-        const password = form.password.value;
+      const password = form.password.value;
         const userLogData = {
             email,
             password
@@ -45,13 +45,14 @@ export default function SingInForm() {
         const name = form.name.value;
         const email = form.email.value;
         const password = form.password.value;
+     
         const userRegistData = {
             name,
             email,
             password,
         }
         dispatch(register(userRegistData))
-        form.reset();
+        // form.reset();
     }
 
     const openSignUp = () => {
